@@ -8,5 +8,5 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::get('/news', function (Request $request) {
-    return null;
+    return null; 
 });
