@@ -1,6 +1,8 @@
 
 <?php
 
+//hehe
+
 use App\Models\News;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
