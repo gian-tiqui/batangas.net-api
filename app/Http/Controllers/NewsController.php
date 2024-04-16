@@ -56,7 +56,7 @@ class NewsController extends Controller
             return back()->withErrors($validator)->withInput();
         }
     
-        $news->update($request->all()); // Update existing model
+        $news->update($request->all());
     
         return redirect('/news')->with('success', 'News article updated successfully!');
     }
